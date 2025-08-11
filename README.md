@@ -88,7 +88,6 @@ var zyonge = new Object(){
 ## Overview
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg?t=20250812" 
-       alt="3D Contribution Graph" 
-       width="800">
+  <img src="./profile-3d-contrib/profile-green.svg?t=0" alt="3D Contribution Graph" width="800">
 </p>
+
