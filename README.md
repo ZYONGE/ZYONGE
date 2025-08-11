@@ -88,8 +88,7 @@ var zyonge = new Object(){
 ## Overview
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
-    <img src="./profile-3d-contrib/profile-green.svg" alt="3D GitHub Grass" width="97%" />
-  </picture>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg?t=20250812" 
+       alt="3D Contribution Graph" 
+       width="800">
 </p>
