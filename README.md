@@ -65,6 +65,6 @@ const ZYONGE = {
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
-    <img src="./profile-3d-contrib/profile-green.svg" alt="3D GitHub Grass" width="90%" />
+    <img src="./profile-3d-contrib/profile-green.svg" alt="3D GitHub Grass" width="97%" />
   </picture>
 </p>
