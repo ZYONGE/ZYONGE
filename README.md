@@ -44,27 +44,27 @@ const ZYONGE = {
 
 ## Work Portfolio
 #### Currently ongoing project
-- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git) — A beginner-level Spring Boot project for API basics.
+- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git) - A beginner-level Spring Boot project for API basics.
 
 <details>
   <summary>Spring Workflow</summary>
 
-- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git) — A beginner-level Spring Boot project for API basics.
+- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git) - A beginner-level Spring Boot project for API basics.
 
 </details>
 
 <details>
   <summary>Java Syntax Practice</summary>
 
-- [JavaContactPractice](https://github.com/ZYONGE/JavaContactPractice.git) — Terminal-based Java Contact application
-- [JavaCalendarPractice](https://github.com/ZYONGE/JavaCalendarPractice.git) — Simple Java Syntax Practice Code With Calendar Library.
+- [JavaContactPractice](https://github.com/ZYONGE/JavaContactPractice.git) - Terminal-based Java Contact application
+- [JavaCalendarPractice](https://github.com/ZYONGE/JavaCalendarPractice.git) - Simple Java Syntax Practice Code With Calendar Library.
 
 </details>
 
 <details>
   <summary>P.S With PyThon</summary>
 
-- [JavaContactPractice](https://github.com/ZYONGE/PythonProblemSolvingLog.git) — log of Solutions of Algorithm Problems Written in Python
+- [JavaContactPractice](https://github.com/ZYONGE/PythonProblemSolvingLog.git) - log of Solutions of Algorithm Problems Written in Python
 
 </details>
 
