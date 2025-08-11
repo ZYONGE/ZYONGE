@@ -2,7 +2,7 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:           # 매일 동작 (예: 18:00 UTC = 한국시간 다음날 03:00)
-    - cron: "0 18 * * *"
+    - cron: "5 15 * * *"
   workflow_dispatch:  # 수동 실행 버튼
 
 permissions:
