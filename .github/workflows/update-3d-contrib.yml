@@ -1,15 +1,14 @@
 name: Update 3D Contribution Graph
-
 on:
   schedule:
-    - cron: '5 15 * * *'    # 매일 실행
+    - cron: '5 15 * * *'   # 매일 00:05 KST
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,17 +19,20 @@ jobs:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 숫자 안 바뀌는 문제를 '무조건' 해결하는 교체 단계 (sed 대신 perl, 더 범용)
       - name: Cache-bust README image query (robust)
         run: |
+          set -e
           ts=$(date -u +%Y%m%d%H%M%S)
-          file="README.md"
-          # profile-3d-contrib 폴더 안의 모든 .svg 링크에 ?t=타임스탬프 부착/교체
-          sed -E -i "s#(profile-3d-contrib/[^\"')]+\.svg)(\?t=[0-9]+)?#\1?t=${ts}#g" "$file"
+          # 어떤 경로형태라도 잡도록: ./, /, 또는 절대경로(raw.githubusercontent 등) 모두
+          perl -0777 -pe "s#((?:\\./)?(?:profile-3d-contrib|/profile-3d-contrib|https?://raw\\.githubusercontent\\.com/.+?/profile-3d-contrib)/[^\"'\\)]+\\.svg)(?:\\?t=\\d+)?#\\1?t=${ts}#g" -i README.md
+          echo "== Matched lines after replace =="
+          grep -nE 'profile-3d-contrib/.+\\.svg\\?t=' README.md || true
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "chore: update 3D graph $ts" || echo "No changes"
+          git add README.md profile-3d-contrib || true
+          git commit -m "chore: cache-bust ($GITHUB_RUN_ID)" || echo "No changes"
           git push
