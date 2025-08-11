@@ -2,7 +2,7 @@ name: Update 3D Contribution Graph
 
 on:
   schedule:
-    - cron: '5 15 * * *'   # 매일 00:05 KST (UTC 15:05)
+    - cron: '5 15 * * *'    # 매일 실행
   workflow_dispatch:
 
 permissions:
@@ -12,36 +12,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Generate 3D contribution SVGs
         uses: yoshi389111/github-profile-3d-contrib@main
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          # 아래 옵션은 취향대로 (주석 해제해서 쓸 수 있음)
-          # settings: |
-          #   {
-          #     "output": "./profile-3d-contrib",
-          #     "weeks": 28,
-          #     "theme": "night-rainbow",
-          #     "height": 10
-          #   }
 
-      - name: Cache-bust README image query
+      - name: Cache-bust README image query (robust)
         run: |
           ts=$(date -u +%Y%m%d%H%M%S)
           file="README.md"
-          # t=쿼리스트링을 매번 갱신해서 GitHub 이미지 캐시 무력화
-          if grep -q "profile-3d-contrib/profile-night-rainbow.svg" "$file"; then
-            sed -i "s#profile-3d-contrib/profile-night-rainbow.svg?t=[0-9]*#profile-3d-contrib/profile-night-rainbow.svg?t=${ts}#g" "$file" || true
-          fi
+          # profile-3d-contrib 폴더 안의 모든 .svg 링크에 ?t=타임스탬프 부착/교체
+          sed -E -i "s#(profile-3d-contrib/[^\"')]+\.svg)(\?t=[0-9]+)?#\1?t=${ts}#g" "$file"
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: update 3D graph ($(date -u +%F))" || echo "No changes to commit"
+          git commit -m "chore: update 3D graph $ts" || echo "No changes"
           git push
