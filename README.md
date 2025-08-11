@@ -1,16 +1,67 @@
-## Hi there 👋
+<h1 align="center">
+  Jiyong Kim
+</h1>
 
-<!--
-**ZYONGE/ZYONGE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Back-End Developer in the making!
+</p>
 
-Here are some ideas to get you started:
+```javascript
+const ZYONGE = {
+  birthYear: 2004,
+  nation: "South Korea",
+  university: "Tech University of Korea (TUK)",
+  major: "IT Administration",
+  studying: "Computer Engineering",
+  nowInterested: "Web Development"
+};
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Programming Languages
+<div>
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img alt="C" src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
+</div>
+
+## Frameworks & Runtimes
+<div>
+  <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white" />
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white" />
+</div>
+
+## Real World Languages
+<div>
+  <img alt="South Korea" src="https://hatscripts.github.io/circle-flags/flags/kr.svg" width="28" height="28" />
+  <img alt="United States" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="28" height="28" />
+</div>
+
+## Challenges
+- Build advanced proficiency in web development.
+- Hands-on practice with data structures and database management.
+- Gain practical experience by operating real-world projects.
+
+## Featured Projects
+- [Project One](https://github.com/YOUR_USERNAME/REPO_1) — one sentence.
+
+<details>
+  <summary>Spring Workflow</summary>
+
+- [Project Two](https://github.com/YOUR_USERNAME/REPO_2)
+- [Project Three](https://github.com/YOUR_USERNAME/REPO_3)
+
+</details>
+
+<details>
+  <summary>Java Syntax Practice</summary>
+
+- [JavaContactPractice](https://github.com/ZYONGE/JavaContactPractice.git)
+- [JavaCalendarPractice](https://github.com/ZYONGE/JavaCalendarPractice.git)
+
+</details>
+
+## Stats
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true" alt="stats" />
+</p>
