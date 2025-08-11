@@ -6,14 +6,14 @@
   Back-End Developer in the making!
 </p>
 
-```javascript
-const ZYONGE = {
-  birthYear: 2004,
-  nation: "South Korea",
-  university: "Tech University of Korea (TUK)",
-  major: "IT Administration",
-  studying: "Computer Engineering",
-  nowInterested: "Web Development"
+```Java
+var zyonge = new Object(){
+    String birth = "2004";
+    String nation = "South Korea";
+    String university = "Tech University of Korea (TUK)";
+    String major = "IT Administration";
+    String studying = "Computer Engineering";
+    String nowInterested = "Web Development";
 };
 ```
 ## Tech Stack
