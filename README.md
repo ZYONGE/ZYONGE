@@ -42,14 +42,13 @@ const ZYONGE = {
 - Hands-on practice with data structures and database management.
 - Gain practical experience by operating real-world projects.
 
-## Featured Projects
-- [Project One](https://github.com/YOUR_USERNAME/REPO_1) — one sentence.
+## Work Portfolio
+- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git) — currently ongoing project.
 
 <details>
   <summary>Spring Workflow</summary>
 
-- [Project Two](https://github.com/YOUR_USERNAME/REPO_2)
-- [Project Three](https://github.com/YOUR_USERNAME/REPO_3)
+- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git)
 
 </details>
 
@@ -61,7 +60,7 @@ const ZYONGE = {
 
 </details>
 
-## Stats
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true" alt="stats" />
+## Overview
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ZYONGE&show_icons=true" />
 </p>
