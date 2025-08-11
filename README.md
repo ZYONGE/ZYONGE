@@ -64,7 +64,7 @@ const ZYONGE = {
 <details>
   <summary>P.S With PyThon</summary>
 
-- [JavaContactPractice](https://github.com/ZYONGE/PythonProblemSolvingLog.git) - log of Solutions of Algorithm Problems Written in Python
+- [PythonProblemSolvingLog](https://github.com/ZYONGE/PythonProblemSolvingLog.git) - log of Solutions of Algorithm Problems Written in Python
 
 </details>
 
