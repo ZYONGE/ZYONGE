@@ -37,7 +37,7 @@ const ZYONGE = {
   <img alt="United States" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="28" height="28" />
 </div>
 
-## Challenges
+## Goals
 - Build advanced proficiency in web development.
 - Hands-on practice with data structures and database management.
 - Gain practical experience by operating real-world projects.
