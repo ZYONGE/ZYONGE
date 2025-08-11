@@ -62,5 +62,30 @@ const ZYONGE = {
 
 ## Overview
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZYONGE&show_icons=true" />
+  <img src="https://ghchart.rshah.org/219138/ZYONGE"/>
 </p>
+
+<div align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ZYONGE&show_icons=true&rank_icon=github&cache_seconds=86400"
+    alt="GitHub Stats"
+  />
+</div>
+
+## BOJ
+
+<div align="center">
+
+  <a href="https://solved.ac/profile/zyonge">
+    <img
+      src="https://mazassumnida.wtf/api/v2/generate_badge?boj=zyonge"
+      alt="Solved.ac Profile"
+    />
+  </a>
+  <br /><br />
+  <img
+    src="https://mazandi.herokuapp.com/api?handle=zyonge&theme=warm"
+    alt="Baekjoon solved problems by level"
+  />
+
+</div>
