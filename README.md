@@ -86,3 +86,7 @@ var zyonge = new Object(){
 </details>
 
 ## Overview
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/grayscale/profile-bw.png">
+    <img alt="3D contribution graph" src="./profile-3d-contrib/profile-green.svg">
+  </picture>
