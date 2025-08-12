@@ -17,7 +17,7 @@ jobs:
       - name: Generate 3D contribution SVGs
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{README}}  # 직접 만든 PAT 시크릿 이름
+          GITHUB_TOKEN: ${{secrets.README}}  # 직접 만든 PAT 시크릿 이름
           USERNAME: ${{ github.repository_owner }}
 
       - name: Install converters (rsvg-convert & ImageMagick)
