@@ -1,1 +1,46 @@
+name: GitHub-Profile-3D-Contrib
 
+on:
+  schedule:
+    - cron: "5 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{README}}  # 직접 만든 PAT 시크릿 이름
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Install converters (rsvg-convert & ImageMagick)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y librsvg2-bin imagemagick
+
+      - name: Build grayscale image from a dark SVG
+        run: |
+          mkdir -p profile-3d-contrib/grayscale
+          rsvg-convert -w 1200 \
+            -o profile-3d-contrib/grayscale/profile-bw.png \
+            profile-3d-contrib/profile-night-view.svg
+          convert profile-3d-contrib/grayscale/profile-bw.png \
+                  -colorspace Gray \
+                  profile-3d-contrib/grayscale/profile-bw.png
+
+      - name: Commit & Push
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          if git commit -m "chore: generate 3d contrib + grayscale"; then
+            git pull --rebase --autostash || true
+            git push
+          fi
