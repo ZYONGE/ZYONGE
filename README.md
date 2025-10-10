@@ -1,5 +1,8 @@
 <h1 align="center">
   Jiyong Kim
+  <p align="center", style="font-size:17px; color:gray; font-weight:400;"">
+    김지용
+  </p>
 </h1>
 
 <p align="center">
@@ -7,7 +10,7 @@
 </p>
 
 ```Java
-var zyonge = new Object(){
+class Zyonge {
     String birth = "2004";
     String nation = "South Korea";
     String university = "Tech University of Korea (TUK)";
@@ -15,6 +18,7 @@ var zyonge = new Object(){
     String studying = "Computer Engineering";
     String nowInterested = "Web Development";
 };
+//Email: kimjiyong0819@gmail.com
 ```
 ## Tech Stack
 ### 1. Programming Languages
@@ -55,37 +59,35 @@ var zyonge = new Object(){
 </div>
 
 ## Goals
-- Build advanced proficiency in web development.
-- Hands-on practice with data structures and database management.
+- Achieve advanced proficiency in web development.
+- Strengthen understanding of data structures and database management through hands-on practice.
 - Gain practical experience by operating real-world projects.
 
-## Portfolio
-### Currently ongoing project
-- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git) - A beginner-level Spring Boot project for API basics.
-
+## Repositories Overview
 <details>
   <summary>Spring Workflow</summary>
 
-- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git) - A beginner-level Spring Boot project for API basics.
+- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git)
+- [JSPLogInPractice](https://github.com/ZYONGE/JSPLogInPractice.git)
 
 </details>
 
 <details>
   <summary>Java Syntax Practice</summary>
 
-- [JavaContactPractice](https://github.com/ZYONGE/JavaContactPractice.git) - Terminal-based Java Contact application
-- [JavaCalendarPractice](https://github.com/ZYONGE/JavaCalendarPractice.git) - Simple Java Syntax Practice Code With Calendar Library.
+- [JavaContactPractice](https://github.com/ZYONGE/JavaContactPractice.git)
+- [JavaCalendarPractice](https://github.com/ZYONGE/JavaCalendarPractice.git)
 
 </details>
 
 <details>
-  <summary>P.S With PyThon</summary>
+  <summary>P.S with Python</summary>
 
-- [PythonProblemSolvingLog](https://github.com/ZYONGE/PythonProblemSolvingLog.git) - Log of Solutions of Algorithm Problems Written in Python
+- [PythonProblemSolvingLog](https://github.com/ZYONGE/PythonProblemSolvingLog.git)
 
 </details>
 
-## Overview
+## GitHub Activity Graph
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
     <img alt="3D contribution graph — rainbow" src="./profile-3d-contrib/profile-night-rainbow.svg">
