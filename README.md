@@ -1,8 +1,5 @@
 <h1 align="center">
   Jiyong Kim
-  <p align="center", style="font-size:17px; color:gray; font-weight:400;"">
-    김지용
-  </p>
 </h1>
 
 <p align="center">
@@ -18,7 +15,7 @@ class Zyonge {
     String studying = "Computer Engineering";
     String nowInterested = "Web Development";
 };
-//Email: kimjiyong0819@gmail.com
+//Email: zyongedev@gmail.com
 ```
 ## Tech Stack
 ### 1. Programming Languages
