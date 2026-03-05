@@ -2,10 +2,6 @@
   Jiyong Kim
 </h1>
 
-<p align="center">
-  Back-End Developer in the making!
-</p>
-
 ```Java
 class Zyonge {
     String birth = "2004";
@@ -15,7 +11,7 @@ class Zyonge {
     String studying = "Computer Engineering";
     String nowInterested = "Web Development";
 };
-//Email: zyongedev@gmail.com
+//Business Email: kimjiyong0819@gmail.com
 ```
 ## Tech Stack
 ### 1. Programming Languages
@@ -47,6 +43,7 @@ class Zyonge {
 <div>
   <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Badge" />
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Badge" />
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=Linux&logoColor=white" alt="Linux badge" />
 </div>
 
 ## Real World Languages
@@ -55,36 +52,35 @@ class Zyonge {
   <img alt="United States" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="28" height="28" />
 </div>
 
-## Goals
-- Achieve advanced proficiency in web development.
-- Strengthen understanding of data structures and database management through hands-on practice.
-- Gain practical experience by operating real-world projects.
+## Subject
+- Save my Univ-class Source code files
 
 ## Repositories Overview
 <details>
-  <summary>Spring Workflow</summary>
+  <summary>Web Dynamic Project</summary>
 
 - [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git)
-- [JSPLogInPractice](https://github.com/ZYONGE/JSPLogInPractice.git)
+- 
 
 </details>
 
 <details>
-  <summary>Java Syntax Practice</summary>
+  <summary>Unix and Data Structure</summary>
+
+- 
+
+</details>
+
+<details>
+  <summary>Java Syntax</summary>
 
 - [JavaContactPractice](https://github.com/ZYONGE/JavaContactPractice.git)
 - [JavaCalendarPractice](https://github.com/ZYONGE/JavaCalendarPractice.git)
 
 </details>
 
-<details>
-  <summary>P.S with Python</summary>
 
-- [PythonProblemSolvingLog](https://github.com/ZYONGE/PythonProblemSolvingLog.git)
-
-</details>
-
-## GitHub Activity Graph
+## Activity Graph
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
     <img alt="3D contribution graph — rainbow" src="./profile-3d-contrib/profile-night-rainbow.svg">
