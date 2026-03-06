@@ -3,7 +3,7 @@
 </h1>
 
 ```Java
-class Zyonge {
+class Zyonge{
     String birth = "2004";
     String nation = "South Korea";
     String university = "Tech University of Korea (TUK)";
@@ -11,7 +11,7 @@ class Zyonge {
     String studying = "Computer Engineering";
     String nowInterested = "Web Development";
 };
-//Business Email: kimjiyong0819@gmail.com
+//Business Email:kimjiyong0819@gmail.com
 ```
 ## Tech Stack
 ### 1. Programming Languages
@@ -31,25 +31,19 @@ class Zyonge {
 ### 3. Database
 <div>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge" />
+  
 </div>
 
-### 4. Platforms & Tools
+### 4. Platforms & Editior
 <div>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge" />
-  <img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Google Drive Badge" />
-</div>
-
-### 5. Code Editor
-<div>
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCode Badge" />
   <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white" alt="Eclipse Badge" />
 </div>
 
-### 6. OS
+### 5. AI Agent
 <div>
-  <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Badge" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Badge" />
-  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=Linux&logoColor=white" alt="Linux badge" />
+<img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=OpenAI&logoColor=white" alt="Codex Badge" />
 </div>
 
 ## Real World Languages
