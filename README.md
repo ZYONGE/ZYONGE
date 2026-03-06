@@ -57,9 +57,8 @@ class Zyonge {
 
 ## Repositories Overview
 <details>
-  <summary>Web Dynamic Project</summary>
+  <summary>Dynamic Web Project</summary>
 
-- [SpringBootPractice](https://github.com/ZYONGE/SpringBootPractice.git)
 - 
 
 </details>
