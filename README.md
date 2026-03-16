@@ -30,7 +30,7 @@ class Zyonge{
 
 ### 3. Database
 <div>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge" />
   
 </div>
 
@@ -43,7 +43,7 @@ class Zyonge{
 
 ### 5. AI Agent
 <div>
-<img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=OpenAI&logoColor=white" alt="Codex Badge" />
+<img src="https://img.shields.io/badge/GitHub%20Copilot-22272E?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
 </div>
 
 ## Real World Languages
