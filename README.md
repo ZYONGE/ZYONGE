@@ -36,7 +36,7 @@ class Zyonge{
 
 ### 4. Platforms & Editior
 <div>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCode Badge" />
   <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white" alt="Eclipse Badge" />
 </div>
@@ -57,9 +57,11 @@ class Zyonge{
 
 ## Repositories Overview
 <details>
-  <summary>Dynamic Web Project</summary>
+  <summary>WebProgramming and Database</summary>
 
 - [DynamicWebProject](https://github.com/ZYONGE/DynamicWebProject.git)
+- [DatabaseDesign](https://github.com/ZYONGE/DatabaseDesign.git)
+
 </details>
 
 <details>
