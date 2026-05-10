@@ -44,6 +44,7 @@ class Zyonge{
 ### 5. AI Agent
 <div>
 <img src="https://img.shields.io/badge/GitHub%20Copilot-22272E?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claudecode-FFA500?style=for-the-badge&logo=claude&logoColor=white"/>
 </div>
 
 ## Real World Languages
@@ -54,30 +55,7 @@ class Zyonge{
 
 ## Subject
 - Store and review the practice exercises from University courses.
-
-## Repositories Overview
-<details>
-  <summary>WebProgramming and Database</summary>
-
-- [DynamicWebProject](https://github.com/ZYONGE/DynamicWebProject.git)
-- [DatabaseDesign](https://github.com/ZYONGE/DatabaseDesign.git)
-
-</details>
-
-<details>
-  <summary>Unix and Data Structure</summary>
-
-- [BasicUnix](https://github.com/ZYONGE/BasicUnix.git)
-- [DataStructure](https://github.com/ZYONGE/DataStructure.git)
-</details>
-
-<details>
-  <summary>Java Syntax</summary>
-
-- [JavaContactPractice](https://github.com/ZYONGE/JavaContactPractice.git)
-- [JavaCalendarPractice](https://github.com/ZYONGE/JavaCalendarPractice.git)
-</details>
-
+- Manage Team projects and personal projects.
 
 ## Activity Graph
   <picture>
