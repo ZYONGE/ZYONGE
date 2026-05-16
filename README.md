@@ -12,7 +12,7 @@ class Zyonge{
     String nowInterested = "Web Development";
 };
 //Business Email:kimjiyong0819@gmail.com
-//School Email:c2023314009@tukorea.ac.kr
+//School Email:2023314009@tukorea.ac.kr
 ```
 ## Tech Stack
 ### 1. Programming Languages
