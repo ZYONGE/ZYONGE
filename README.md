@@ -1,6 +1,6 @@
 ## Featured Project
 <a href="https://github.com/ZYONGE/cascading-lock-state-machine">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZYONGE&repo=cascading-lock-state-machine&theme=default" alt="cascading-lock-state-machine — 부모 항목 잠금 시 하위 항목까지 연쇄적으로 잠기는 cascading lock 패턴의 참고 구현 (TypeScript, Supabase)" />
+  <img src="https://img.shields.io/badge/cascading--lock--state--machine-%EC%B0%B8%EA%B3%A0_%EA%B5%AC%ED%98%84_(TS%2BSupabase)-181717?style=for-the-badge&logo=github&logoColor=white" alt="cascading-lock-state-machine — 부모 항목 잠금 시 하위 항목까지 연쇄적으로 잠기는 cascading lock 패턴의 참고 구현 (TypeScript, Supabase)" />
 </a>
 
 ```Java
