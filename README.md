@@ -6,11 +6,27 @@
   and managing both team and personal projects.
 </p>
 
-<p align="">
-  <a href="mailto:zyonge.projects@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send me an email" />
-  </a>
-</p>
+## About Me
+
+```java
+class Zyonge {
+    String birth = "2004";
+    String nation = "South Korea";
+
+    String university = "Tech University of Korea (TUK)";
+    String major = "IT Administration";
+    String double_major = "Computer Engineering";
+
+    String now_Ongoing = "Web Application Development";
+    String specialty = "AI Agent, Cloud Computing";
+}
+```
+### Languages
+
+<div>
+  <img src="https://img.shields.io/badge/Korean-4B5563?style=for-the-badge" alt="Korean" />
+  <img src="https://img.shields.io/badge/English-4B5563?style=for-the-badge" alt="English" />
+</div>
 
 ## Ongoing Repositories
 
@@ -82,31 +98,7 @@
   <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
 </div>
 
-## About Me
 
-```java
-class Zyonge {
-    String birth = "2004";
-    String nation = "South Korea";
-
-    String university = "Tech University of Korea (TUK)";
-    String major = "IT Administration";
-    String double_major = "Computer Engineering";
-
-    String now_Ongoing = "Web Application Development";
-    String specialty = "AI Agent, Cloud Computing";
-}
-```
-
-### Languages
-<!--
-  숙련도를 함께 표기하려면 배지 텍스트를 두 칸으로 나누면 됩니다.
-  예) .../badge/Korean-Native-...  /  .../badge/English-Business-...
--->
-<div>
-  <img src="https://img.shields.io/badge/Korean-4B5563?style=for-the-badge" alt="Korean" />
-  <img src="https://img.shields.io/badge/English-4B5563?style=for-the-badge" alt="English" />
-</div>
 
 ## Activity Graph
 
