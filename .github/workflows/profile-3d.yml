@@ -2,11 +2,20 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "5 15 * * 0"
+    - cron: "5 15 * * *"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile-3d-contrib/**"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+# 스케줄 실행과 push 실행이 겹쳐 git push가 충돌하는 것을 방지
+concurrency:
+  group: profile-3d
+  cancel-in-progress: false
 
 jobs:
   build:
