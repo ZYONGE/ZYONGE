@@ -26,7 +26,9 @@ jobs:
       - name: Generate 3D contribution SVGs
         uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
-          GITHUB_TOKEN: ${{secrets.README}}  # 직접 만든 PAT 시크릿 이름
+          # 공개 기여만 집계하므로 자동 발급되는 GITHUB_TOKEN으로 충분하다.
+          # PAT와 달리 만료가 없어 갱신 관리가 필요 없다.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit & Push
